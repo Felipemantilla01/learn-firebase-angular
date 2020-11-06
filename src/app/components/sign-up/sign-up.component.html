@@ -1,0 +1,17 @@
+
+<div [formGroup]="signUpForm">
+    <h3>Sign Up </h3>
+  
+    <label>
+      Email:
+      <input type="text" formControlName="email">
+    </label>
+   
+    <label>
+      Password:
+      <input type="text" formControlName="password">
+    </label>
+
+    <button (click)="submit()">Submit</button>
+
+</div>
