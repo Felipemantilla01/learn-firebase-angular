@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCDaPvUUfAgqlEUcjJBsGUPTQ08-Y4J7aE",
-    authDomain: "learn-8a296.firebaseapp.com",
-    databaseURL: "https://learn-8a296.firebaseio.com",
-    projectId: "learn-8a296",
-    storageBucket: "learn-8a296.appspot.com",
-    messagingSenderId: "1065218335697",
-    appId: "1:1065218335697:web:cfa4de3ffeed8df4cbb6f0",
-    measurementId: "G-ENT6XTYRG1"
+    apiKey: "AIzaSyDxWsJkOJx5kGVkS0Xstg5QWxKzBsBhSZs",
+    authDomain: "felipe-mantilla.firebaseapp.com",
+    databaseURL: "https://felipe-mantilla.firebaseio.com",
+    projectId: "felipe-mantilla",
+    storageBucket: "felipe-mantilla.appspot.com",
+    messagingSenderId: "450068683513",
+    appId: "1:450068683513:web:5b57fae28777d003afa028",
+    measurementId: "G-424C1NXQSV"
   }
 };
 

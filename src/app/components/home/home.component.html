@@ -1,0 +1,32 @@
+<div>
+    <button (click)="get()">Get</button>    
+</div>
+
+
+<div style="display:flex; justify-content: left; align-items: center;">
+    <input type="text" #name (keyup)="getQuery(name.value)" placeholder="Search by name">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: left;">
+    <div style="border:solid 1px black; padding:1vh; border-radius: 10px; max-width: 30vw;" *ngFor="let user of result">
+        <p>id: {{user.id}}</p>
+        <h3>Name: {{user.name}}</h3>
+        <h3>Lastname: {{user.lastname}}</h3>
+    </div>
+</div>
+
+
+<div>
+    <h3>Crear notificacion con real time database</h3>
+    <input [(ngModel)]="notficationForm.type" type="text" placeholder="Tipo de notificacion">
+    <input [(ngModel)]="notficationForm.desc" type="text" placeholder="Descripcion">
+    <button (click)="push()">create</button>
+</div>
+
+<div>
+    <h3 style="margin:0">Notifications</h3>
+    <div style="display: flex; align-items: center; margin:0; padding: 0;" *ngFor="let notification of notifications">
+        <h4>{{notification.type}}:</h4>
+        <p>{{notification.desc}}</p>
+    </div>
+</div>

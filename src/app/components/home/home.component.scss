@@ -1,0 +1,36 @@
+div{
+    margin: 2vh;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    padding: .1vh;
+    min-width: 20vw;
+    min-height: 3vh;
+    max-width: 20vw;
+    max-height: 3vh;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1vh;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color:rgb(37, 35, 35);
+}
+
+input{
+    border-radius: 10px;
+    border:solid 1px gray;
+    min-width: 20vw;
+    min-height: 3vh; 
+}
+input:focus{
+    outline: none;
+}  
