@@ -1,2 +1,9 @@
 npm i @angular/fire --save
-test
+
+firebase login 
+
+firebase init 
+
+firebase use --add felipe-mantilla
+
+firebase deployu
